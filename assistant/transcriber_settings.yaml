@@ -1,0 +1,15 @@
+always_on_top: false
+dark_mode: false
+language: es
+max_record_time: 30
+microphone_index: '2'
+seconds_of_silence_between_lines: 0.5
+speech_model: large
+text_background: false
+text_size: 24
+transcribe_rate: 0.5
+translate: false
+transparent: false
+volume_threshold: 300
+window_height: 1000.0
+window_width: 1551.0

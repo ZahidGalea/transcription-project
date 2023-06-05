@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "capturing"
+version = "1.0.0"
+description = "Transcription and resuming dependencies"
+authors = ["Zahid Galea <zgalea@acid.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+sounddevice = "*"
+torch = "*"
+pyaudio = "*"
+scipy = "*"
+openai-whisper = { git = "https://github.com/openai/whisper.git" }
+python-dotenv = "*"
+pyannote-audio = { git = "https://github.com/pyannote/pyannote-audio.git", branch = 'develop' }
+flet = "*"
